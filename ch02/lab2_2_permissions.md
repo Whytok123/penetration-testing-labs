@@ -62,3 +62,20 @@ _Exit code:
 
 **Lab 2.2 complete – file permissions & ownership outputs saved**
 _Ended: Fri Aug 15 03:01:50 PM EDT 2025_
+```bash
+$ chmod u=rwx,g=rx,o= ch02/secret.txt
+```
+```
+chmod: changing permissions of 'ch02/secret.txt': Operation not permitted
+```
+_Exit code: 
+```bash
+$ ls -l ch02/secret.txt
+```
+```
+-rw------- 1 attacker attacker 19 Aug 15 15:01 ch02/secret.txt
+```
+_Exit code: 
+
+**Lab 2.2 – Fixed chmod output**
+_Ended: Fri Aug 15 03:04:53 PM EDT 2025_
