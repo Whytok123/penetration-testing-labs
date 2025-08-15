@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Penetration Testing Labs
 
 ## Index
@@ -8,4 +9,7 @@
 ---
 (Appended remote README during rebase)
 
-# Penetration Testing Labs – Chapter 2
+=======
+<<<<<<< HEAD
+>>>>>>> 1d458f4 (Add chapter index to README)
+# Penetration Testing Labs – Chapter 2)
