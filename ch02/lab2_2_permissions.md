@@ -1,17 +1,64 @@
 # Lab 2.2 – File Permissions & Ownership
 
-## Objective
-View, change, and verify file permissions and ownership.
+_Started: Fri Aug 15 03:01:46 PM EDT 2025_
 
-## Steps
-echo 'secret=flag{perms}' > secret.txt
-ls -l secret.txt
-chmod 600 secret.txt
-ls -l secret.txt
-sudo chown attacker:attacker secret.txt
-ls -l secret.txt
-chmod u=rwx,g=rx,o= secret.txt   # 750
-ls -l secret.txt
+```bash
+$ echo 'secret=flag{perms}' > ch02/secret.txt
+```
+```
 
-## Findings
-- 600 = owner rw only; ownership change requires sudo; 750 = u:rwx g:rx o:—
+```
+_Exit code: 
+```bash
+$ ls -l ch02/secret.txt
+```
+```
+-rw-rw-r-- 1 kali kali 19 Aug 15 15:01 ch02/secret.txt
+```
+_Exit code: 
+```bash
+$ chmod 600 ch02/secret.txt
+```
+```
+
+```
+_Exit code: 
+```bash
+$ ls -l ch02/secret.txt
+```
+```
+-rw------- 1 kali kali 19 Aug 15 15:01 ch02/secret.txt
+```
+_Exit code: 
+```bash
+$ sudo chown attacker:attacker ch02/secret.txt
+```
+```
+
+```
+_Exit code: 
+```bash
+$ ls -l ch02/secret.txt
+```
+```
+-rw------- 1 attacker attacker 19 Aug 15 15:01 ch02/secret.txt
+```
+_Exit code: 
+```bash
+$ chmod u=rwx,g=rx,o= ch02/secret.txt
+```
+```
+chmod: changing permissions of 'ch02/secret.txt': Operation not permitted
+```
+_Exit code: 
+```bash
+$ ls -l ch02/secret.txt
+```
+```
+-rw------- 1 attacker attacker 19 Aug 15 15:01 ch02/secret.txt
+```
+_Exit code: 
+💡 600 = owner-only read/write; 750 = owner: rwx, group: rx, others: none. chown changes ownership to attacker.
+
+**Lab 2.2 complete – file permissions & ownership outputs saved**
+_Ended: Fri Aug 15 03:01:50 PM EDT 2025_
