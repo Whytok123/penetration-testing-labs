@@ -50,3 +50,7 @@ _Exit code:
 
 **Lab 3.1 complete – filesystem navigation**
 _Ended: Tue Aug 19 03:56:37 PM EDT 2025_
+💡 Practiced navigating with cd, pwd, ls; learned relative vs absolute paths.
+
+**Lab 3.1 complete – filesystem navigation**
+_Ended: Tue Aug 19 03:59:53 PM EDT 2025_
