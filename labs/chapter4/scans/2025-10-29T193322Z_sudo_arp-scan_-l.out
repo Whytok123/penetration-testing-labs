@@ -1,0 +1,15 @@
+## 2025-10-29T193322Z — sudo arp-scan -l
+$ sudo arp-scan -l
+Interface: eth0, type: EN10MB, MAC: 00:0c:29:77:48:12, IPv4: 10.0.0.34
+Starting arp-scan 1.10.0 with 256 hosts (https://github.com/royhills/arp-scan)
+10.0.0.1	c4:50:9c:d4:06:f7	(Unknown)
+10.0.0.88	b6:1b:d9:0d:cb:cc	(Unknown: locally administered)
+10.0.0.160	00:a1:59:2e:1c:f1	(Unknown)
+10.0.0.165	88:f4:da:b8:41:7e	(Unknown)
+10.0.0.160	44:37:0b:83:81:c4	(Unknown) (DUP: 2)
+10.0.0.164	6a:f0:bc:0e:46:f0	(Unknown: locally administered)
+10.0.0.249	00:a1:59:2e:1c:f1	(Unknown)
+10.0.0.249	44:37:0b:83:81:c4	(Unknown) (DUP: 2)
+
+8 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.10.0: 256 hosts scanned in 2.053 seconds (124.70 hosts/sec). 6 responded
