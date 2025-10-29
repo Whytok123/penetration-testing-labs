@@ -38,3 +38,8 @@
 - **Output file**: `penetration-testing-labs/labs/chapter4/scans/2025-10-29T194119Z_curl_-s_http__10.10.10.5_searchqscriptalert1_script__grep_-i.out`
 - **Note**: Quick XSS reflection test
 
+### 2025-10-29T204059Z
+- **Command**: `msfconsole -q -x 'use auxiliary/scanner/smb/smb_version; set RHOSTS 10.10.10.5; set THREADS 10; run; exit'`
+- **Output file**: `penetration-testing-labs/labs/chapter4/scans/2025-10-29T204059Z_msfconsole_-q_-x_use_auxiliary_scanner_smb_smb_version_set_R.out`
+- **Note**: msf: smb_version scan rhosts=10.10.10.5
+

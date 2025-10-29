@@ -1,0 +1,10 @@
+[1m[34m[*][0m Spooling to file /home/kali/penetration-testing-labs/labs/chapter4/scans/msf_smb_version_10.10.10.5.txt...
+[4mmsf6[0m auxiliary([1m[31mscanner/smb/smb_version[0m) [0m> RUN
+[0m[1m[31m[-][0m Unknown command: RUN. Did you mean [32mrun[0m? Run the [32mhelp[0m command for more details.
+[4mmsf6[0m auxiliary([1m[31mscanner/smb/smb_version[0m) [0m> spool /home/kali/penetration-testing-labs/labs/chapter4/scans/msf_smb_version_10.10.10.5.txt
+[0m[1m[34m[*][0m Spooling to file /home/kali/penetration-testing-labs/labs/chapter4/scans/msf_smb_version_10.10.10.5.txt...
+[4mmsf6[0m auxiliary([1m[31mscanner/smb/smb_version[0m) [0m> 
+[0m[4mmsf6[0m auxiliary([1m[31mscanner/smb/smb_version[0m) [0m> EXIT
+[0m[1m[31m[-][0m Unknown command: EXIT. Did you mean [32mexit[0m? Run the [32mhelp[0m command for more details.
+[4mmsf6[0m auxiliary([1m[31mscanner/smb/smb_version[0m) [0m> exit
+[0m

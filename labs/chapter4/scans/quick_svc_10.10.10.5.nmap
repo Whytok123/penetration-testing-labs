@@ -1,2 +1,2 @@
-# Nmap 7.95 scan initiated Wed Oct 29 15:34:22 2025 as: /usr/lib/nmap/nmap -sS -sV -T4 --open -oN labs/chapter4/scans/quick_svc_10.10.10.5.nmap 10.10.10.5
-# Nmap done at Wed Oct 29 15:34:24 2025 -- 1 IP address (0 hosts up) scanned in 2.18 seconds
+# Nmap 7.95 scan initiated Wed Oct 29 15:46:45 2025 as: /usr/lib/nmap/nmap -sS -sV -T4 --open -oN labs/chapter4/scans/quick_svc_10.10.10.5.nmap 10.10.10.5
+# Nmap done at Wed Oct 29 15:46:48 2025 -- 1 IP address (0 hosts up) scanned in 2.14 seconds
