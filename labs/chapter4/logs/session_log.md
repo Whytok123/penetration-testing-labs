@@ -28,3 +28,8 @@
 - **Output file**: `penetration-testing-labs/labs/chapter4/scans/2025-10-29T193833Z_nikto_-h_http__10.10.10.5_-output_labs_chapter4_scans_nikto_.out`
 - **Note**: Nikto web vuln scan (non-destructive)
 
+### 2025-10-29T193930Z
+- **Command**: `sqlmap -u "http://10.10.10.5/page.php?id=1" --batch --level=1 --risk=1 --forms --crawl=1 --dbs --answers="quit=Y" `
+- **Output file**: `penetration-testing-labs/labs/chapter4/scans/2025-10-29T193930Z_sqlmap_-u_http__10.10.10.5_page.phpid1_--batch_--level1_--ri.out`
+- **Note**: sqlmap detection (non-destructive) on probable param
+
