@@ -1,0 +1,4 @@
+## 2025-10-29T193448Z — gobuster dir -u http://10.10.10.5 -w /usr/share/seclists/Discovery/Web-Content/common.txt -o labs/chapter4/scans/gobuster_10.10.10.5.txt -t 40
+$ gobuster dir -u http://10.10.10.5 -w /usr/share/seclists/Discovery/Web-Content/common.txt -o labs/chapter4/scans/gobuster_10.10.10.5.txt -t 40
+Error: error on parsing arguments: wordlist file "/usr/share/seclists/Discovery/Web-Content/common.txt" does not exist: stat /usr/share/seclists/Discovery/Web-Content/common.txt: no such file or directory
+EXIT CODE: 1

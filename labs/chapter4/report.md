@@ -24,3 +24,9 @@
 **Note:** Full TCP port scan & NSE scripts  
 **Output:** `penetration-testing-labs/labs/chapter4/scans/2025-10-29T193433Z_sudo_nmap_-p-_-sC_-sV_-T4_-oN_labs_chapter4_scans_full_svc_1.out`
 
+
+#### 2025-10-29T193448Z
+**Command:** `gobuster dir -u http://10.10.10.5 -w /usr/share/seclists/Discovery/Web-Content/common.txt -o labs/chapter4/scans/gobuster_10.10.10.5.txt -t 40`  
+**Note:** Gobuster directory enumeration  
+**Output:** `penetration-testing-labs/labs/chapter4/scans/2025-10-29T193448Z_gobuster_dir_-u_http__10.10.10.5_-w__usr_share_seclists_Disc.out`
+
