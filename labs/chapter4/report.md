@@ -18,3 +18,9 @@
 **Note:** Fast service discovery on host 10.10.10.5  
 **Output:** `penetration-testing-labs/labs/chapter4/scans/2025-10-29T193421Z_sudo_nmap_-sS_-sV_-T4_--open_-oN_labs_chapter4_scans_quick_s.out`
 
+
+#### 2025-10-29T193433Z
+**Command:** `sudo nmap -p- -sC -sV -T4 -oN labs/chapter4/scans/full_svc_10.10.10.5.nmap 10.10.10.5`  
+**Note:** Full TCP port scan & NSE scripts  
+**Output:** `penetration-testing-labs/labs/chapter4/scans/2025-10-29T193433Z_sudo_nmap_-p-_-sC_-sV_-T4_-oN_labs_chapter4_scans_full_svc_1.out`
+
