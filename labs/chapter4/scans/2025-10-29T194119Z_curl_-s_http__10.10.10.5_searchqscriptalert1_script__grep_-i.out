@@ -1,0 +1,3 @@
+## 2025-10-29T194119Z — curl -s "http://10.10.10.5/search?q=<script>alert(1)</script>" | grep -i "<script>alert(1)</script>" || echo 'Not reflected'
+$ curl -s "http://10.10.10.5/search?q=<script>alert(1)</script>" | grep -i "<script>alert(1)</script>" || echo 'Not reflected'
+Not reflected

@@ -33,3 +33,8 @@
 - **Output file**: `penetration-testing-labs/labs/chapter4/scans/2025-10-29T193930Z_sqlmap_-u_http__10.10.10.5_page.phpid1_--batch_--level1_--ri.out`
 - **Note**: sqlmap detection (non-destructive) on probable param
 
+### 2025-10-29T194119Z
+- **Command**: `curl -s "http://10.10.10.5/search?q=<script>alert(1)</script>" | grep -i "<script>alert(1)</script>" || echo 'Not reflected'`
+- **Output file**: `penetration-testing-labs/labs/chapter4/scans/2025-10-29T194119Z_curl_-s_http__10.10.10.5_searchqscriptalert1_script__grep_-i.out`
+- **Note**: Quick XSS reflection test
+
