@@ -1,0 +1,8 @@
+## 2025-10-29T193334Z — sudo nmap -sn 10.10.10.0/24 -oN labs/chapter4/scans/ping_sweep.nmap
+$ sudo nmap -sn 10.10.10.0/24 -oN labs/chapter4/scans/ping_sweep.nmap
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-29 15:33 EDT
+Stats: 0:00:17 elapsed; 0 hosts completed (0 up), 256 undergoing Ping Scan
+Ping Scan Timing: About 8.30% done; ETC: 15:37 (0:03:08 remaining)
+Stats: 0:00:34 elapsed; 0 hosts completed (0 up), 256 undergoing Ping Scan
+Ping Scan Timing: About 16.60% done; ETC: 15:37 (0:02:51 remaining)
+EXIT CODE: 130

@@ -3,3 +3,8 @@
 - **Output file**: `penetration-testing-labs/labs/chapter4/scans/2025-10-29T193322Z_sudo_arp-scan_-l.out`
 - **Note**: Network ARP discovery (local network)
 
+### 2025-10-29T193334Z
+- **Command**: `sudo nmap -sn 10.10.10.0/24 -oN labs/chapter4/scans/ping_sweep.nmap`
+- **Output file**: `penetration-testing-labs/labs/chapter4/scans/2025-10-29T193334Z_sudo_nmap_-sn_10.10.10.0_24_-oN_labs_chapter4_scans_ping_swe.out`
+- **Note**: Ping sweep subnet 10.10.10.0/24
+
