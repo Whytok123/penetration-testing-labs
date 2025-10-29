@@ -23,3 +23,8 @@
 - **Output file**: `penetration-testing-labs/labs/chapter4/scans/2025-10-29T193448Z_gobuster_dir_-u_http__10.10.10.5_-w__usr_share_seclists_Disc.out`
 - **Note**: Gobuster directory enumeration
 
+### 2025-10-29T193833Z
+- **Command**: `nikto -h http://10.10.10.5 -output labs/chapter4/scans/nikto_10.10.10.5.txt`
+- **Output file**: `penetration-testing-labs/labs/chapter4/scans/2025-10-29T193833Z_nikto_-h_http__10.10.10.5_-output_labs_chapter4_scans_nikto_.out`
+- **Note**: Nikto web vuln scan (non-destructive)
+
